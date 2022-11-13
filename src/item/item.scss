@@ -1,0 +1,42 @@
+.item {
+    width: 100px;
+    height: 10px;
+    border: 2px solid rgb(219, 169, 169);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+
+    &:hover{
+        border-color: black;
+    }
+    & > span {
+
+        display: block;
+    }
+    &__name{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bole;
+    }
+    &__nambers{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    &__add-button{
+        outline: none;
+        background-color: rgb(26, 26, 223);
+        border: none;
+        padding: 5px;
+        width: 100%;
+
+
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(110, 94, 94);
+        }
+    }
+}
